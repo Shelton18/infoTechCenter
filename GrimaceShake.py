@@ -37,11 +37,11 @@ def gasLevelAlert():
         sleep(2.25)
         print("The closest gas station is",listOfStations(),"which is",milesToGasStationsQuarterTank,"Miles away.")        
     elif gasLevelIndicator== "Half Tank":
-        print("Your gas tank is a half of a tan full which is is plenty to get to your destination")
+        print("Your gas tank is a half of a tank full which is is plenty to get to your destination.")
     elif gasLevelIndicator== "Three Quarter tank": 
-        print("your gas tank is at three quarter tank.":
+        print("your gas tank is at three quarter tank.")
     else:
-        print("Gas Tank is Full")
+        print("Gas Tank is Full.")
     
     
 

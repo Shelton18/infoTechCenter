@@ -50,7 +50,7 @@ def vehicleResponseSystem():
         print("\nNational Weather Service has a forecast of", weatherAlert,
               "Weather conditions.")
         sleep(2.5)
-        print("VRS has been disengaged have a nice day.")
+        print("VRS has been disengaged have a nice day. :)")
 
 
 

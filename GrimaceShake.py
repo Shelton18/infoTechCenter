@@ -1,4 +1,3 @@
-
 #Import Libraries Here
 import time
 import sys
@@ -72,9 +71,16 @@ def gasLevelAlert():
     elif gasLevelIndicator== "Three Quarter tank": 
         print("your gas tank is at three quarter tank.")
     else:
+
         print("Gas Tank is Full.")
     
     
+
+        print("\nNational Weather Service has a forecast of", weatherAlert,
+              "Weather conditions.")
+        sleep(2.5)
+        print("VRS has been disengaged have a nice day. :)")
+
 
 gasLevelAlert()
  
